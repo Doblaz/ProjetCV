@@ -1,0 +1,82 @@
+header {
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ENTETE {
+    margin: 0 auto;
+    width: 70%;
+    background-color: darkslateblue;
+    height: 300px;
+}
+
+#Photo {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+#PRENOM {
+    position: relative;
+    height: 150px;
+    width: 60%;
+}
+
+#ALTERNANCE {
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+
+.CONTENU {
+    background-color: chartreuse;
+    width: 70%;
+    margin: 300 auto;
+    border: 25px;
+    border-color: black;
+    height: 700px;
+
+}
+
+.INFOS {
+    width: 100%;
+    position: relative;
+    left: 0;
+    text-align: center;
+}
+
+.EXPERIENCES {
+    background-color: burlywood;
+    width: 100%;
+    position: relative;
+    right: 0;
+    text-align: center;
+}
+
+.CONTENU {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+#Photo,
+#PRENOM,
+#ALTERNANCE {
+    background-color: forestgreen;
+}
