@@ -2,55 +2,71 @@ header {
     margin: 0 auto;
     width: 70%;
     height: 300px;
-    margin: 0;
 }
 
 body {
     margin: 0;
-}
-
-h1 {
-    text-align: center;
-    margin: 0 auto;
+    background-color: yellow;
 }
 
 h2 {
-    text-align: center;
-    margin: 0 auto;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+
+h3 {
+    position: relative;
+    top: 35px;
+    left: 60px;
+
+}
+
+
+
+
+
+.INTRODUCTION {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .ENTETE {
-    margin: 0 auto;
     width: 70%;
-    background-color: darkslateblue;
     height: 300px;
+    display: flex;
+    position: absolute;
 }
 
 #Photo {
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    clip-path: ellipse(50% 50%);
     position: relative;
+
 }
 
 #PRENOM {
     position: relative;
+    display: flex;
     height: 150px;
-    width: 60%;
+    width: 100%;
 }
 
 #ALTERNANCE {
     position: relative;
+    display: flex;
     height: 150px;
     width: 100%;
 }
 
 .CONTENU {
-    background-color: chartreuse;
+    background-color: rgb(173, 22, 22);
     width: 70%;
-    margin: 300 auto;
-    border: 25px;
-    border-color: black;
+    margin: 0 auto;
     height: 700px;
+    display: grid;
+    grid-template-columns: 40% 60%;
 
 }
 
@@ -69,14 +85,7 @@ h2 {
     text-align: center;
 }
 
-.CONTENU {
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
 
 #Photo,
 #PRENOM,
-#ALTERNANCE {
-    background-color: forestgreen;
-}
+#ALTERNANCE {}
