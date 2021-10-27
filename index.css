@@ -1,38 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 
 
 header {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     height: 300px;
 }
 
+
 body {
     margin: 0;
-    background-color: yellow;
+    background-image: linear-gradient(360deg, #F5FD00, #FDBE36)
 }
 
 h2 {
+    font-size: 4.5rem;
     position: relative;
-    top: 35px;
-    left: 35px;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+    font-family: 'Archivo', serif;
 }
 
 h3 {
+    font-size: 1.5rem;
     position: relative;
-    top: 35px;
-    left: 60px;
+    margin: auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h4 {
     font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: underline;
+    font-size: 1.2rem;
 }
 
 ul {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
 }
 
 .INTRODUCTION {
@@ -42,7 +47,7 @@ ul {
 }
 
 .ENTETE {
-    width: 70%;
+    width: 60%;
     height: 300px;
     display: flex;
     position: absolute;
@@ -50,10 +55,9 @@ ul {
 }
 
 #Photo {
-    width: 30%;
+    width: 35%;
     clip-path: ellipse(50% 50%);
     position: relative;
-
 }
 
 #PRENOM {
@@ -71,7 +75,7 @@ ul {
 }
 
 .CONTENU {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     height: 700px;
     display: grid;
@@ -84,17 +88,12 @@ ul {
     width: 100%;
     position: relative;
     left: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .EXPERIENCES {
     width: 100%;
     position: relative;
     right: 0;
-    text-align: center;
+    text-align: left;
 }
-
-
-#Photo,
-#PRENOM,
-#ALTERNANCE {}
